@@ -1,0 +1,6 @@
+D:\Visual Studio 2019\C#\App Windows Form\Console\bin\Debug\Console.exe.config
+D:\Visual Studio 2019\C#\App Windows Form\Console\bin\Debug\Console.exe
+D:\Visual Studio 2019\C#\App Windows Form\Console\bin\Debug\Console.pdb
+D:\Visual Studio 2019\C#\App Windows Form\Console\obj\Debug\Console.csprojAssemblyReference.cache
+D:\Visual Studio 2019\C#\App Windows Form\Console\obj\Debug\Console.exe
+D:\Visual Studio 2019\C#\App Windows Form\Console\obj\Debug\Console.pdb
