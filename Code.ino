@@ -13,6 +13,7 @@ int trace;//variable that contain the index of the backtick `
 String prefix;//variable for the prefix of the telephone number
 String telephone;//variable for the telephone number
 String text;//variable for the text that needs to be sent
+String temp;//variable to help in the splitting process
 
 void loop(){
     String messages = Serial.readString();//Read the string passed through serial comunication
@@ -28,9 +29,9 @@ void loop(){
     */
     prefix = messages.substring(0,messages.indexOf('`'));
     trace = messages.indexOf('`') + 1;
-    telephone = messages.substring(trace,messages.indexOf('`'));
-    trace = messages.indexOf('`') + 1;
-    text = messages.substring(trace,messages.length());
+    temp = messages.substring(trace,messages.length());
+    telephone = temp.substring(0,temp.indexOf('`'));
+    text = temp.substring(temp.indexOf('`')+1,temp.length());
     SendMessage(prefix,telephone,text);
     delay(100);
 }
