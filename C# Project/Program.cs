@@ -37,7 +37,7 @@ namespace Console
             serialPort.WriteLine(prefix + '`' + number + '`' + textMessage);
             serialPort.Close();
             System.Console.WriteLine();
-            System.Console.WriteLine("Message Correctly Sent");
+            System.Console.WriteLine("Message Correctly Sent to the System Manager");
             System.Console.WriteLine();
             System.Console.WriteLine("Press Enter to Logout");
             System.Console.ReadLine();
