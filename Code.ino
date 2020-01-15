@@ -1,3 +1,15 @@
+/**
+ * The project is entirely developed by Russi Antonio
+ * The Component used are:
+ *  -Arduino Uno
+ *  -SIM900 GSM Module
+ * 
+ * Remember that, as written in the code below, you have to connect
+ *          ARDUINO DATASHEET <-------------------> GSMModule DATASHEET
+ *                   Tx Pin 9 <-------------------> Rx Pin
+ *                  Rx Pin 10 <-------------------> Tx Pin
+*/
+
 #include <SoftwareSerial.h>//including the library to permitt the comunication with the GSM Module
 #include<String.h>//including the library to manage the Strings
 
